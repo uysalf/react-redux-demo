@@ -6,6 +6,7 @@ const NewCakeContainer = (props) => {
   const [number, setNumber] = useState(2);
   return (
     <div>
+      <h2>******************New Cake Conatiner******************</h2>
       <h2>Number of Cake {props.numOfCakes}</h2>
       <input
         type="text"

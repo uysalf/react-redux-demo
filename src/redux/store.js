@@ -10,6 +10,8 @@ import rootReducer from "./rootReducer";
 const store = createStore(
   rootReducer,
   composeWithDevTools(applyMiddleware(logger, thunk))
+  // window.__REDUX_DEVTOOLS_EXTENSION__ &&
+  //   window.__REDUX_DEVTOOLS_EXTENSION__() /*chrome redux devtools*/
 );
 
 export default store;

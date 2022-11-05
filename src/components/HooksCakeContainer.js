@@ -6,6 +6,7 @@ const HooksCakeContainer = () => {
   const dispatch = useDispatch();
   return (
     <div>
+      <h2>******************HooksCakeConainer******************</h2>
       <h2>Hooks Num of cakes {numOfCakes}</h2>
       <button onClick={() => dispatch(buyCake())}>Buy cake</button>
     </div>

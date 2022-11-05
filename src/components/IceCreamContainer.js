@@ -4,6 +4,7 @@ import { buyIceCream } from "../redux";
 const IceCreamContainer = (props) => {
   return (
     <div>
+      <h2>******************IceCreamContainer******************</h2>
       <h2>Number of IceCream {props.numOfIceCream}</h2>
       <button onClick={props.buyIceCream}>Buy IceCream</button>
     </div>

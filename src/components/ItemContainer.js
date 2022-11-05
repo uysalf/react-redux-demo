@@ -4,6 +4,7 @@ import { buyCake, buyIceCream } from "../redux";
 const ItemContainer = (props) => {
   return (
     <div>
+      <h2>******************ItemContainer******************</h2>
       <h2>Item {props.item}</h2>
       <button onClick={props.buyItem}>Buy Item</button>
     </div>
