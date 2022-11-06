@@ -7,3 +7,13 @@
  https://github.com/zalmoxisus/redux-devtools-extension
  npm install --save redux-devtools-extension
  npm install axios redux-thunk
+
+
+ npm install gh-pages --save-dev
+"homepage": "http://uysalf.github.io/react-redux-demo",
+ scripts:
+   "start": "react-scripts start",
+    "predeploy": "npm run build",
+
+npm run deploy   
+git save changes
