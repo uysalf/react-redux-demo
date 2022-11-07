@@ -24,3 +24,8 @@ npm i json-server
 db.json dosyası oluştur, package.json içinde :  "serve-json": "json-server --watch db.json --port 3004"
 npm run serve-json  
 http://localhost:3004/products
+
+
+npm install -g json-server
+json-server --watch db.json
+
